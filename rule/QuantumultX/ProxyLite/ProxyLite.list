@@ -1,14 +1,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-22 02:12:39
-# HOST-SUFFIX: 31986
+# UPDATED: 2022-03-26 02:12:09
+# HOST-SUFFIX: 31987
 # USER-AGENT: 5
 # HOST: 36
 # HOST-KEYWORD: 26
 # IP-CIDR: 90
 # IP6-CIDR: 3
-# TOTAL: 32146
+# TOTAL: 32147
 HOST,angle.com.tw,ProxyLite
 HOST,api-p.videomarket.jp,ProxyLite
 HOST,api.waqi.info,ProxyLite
@@ -31328,6 +31328,7 @@ HOST-SUFFIX,yahoodns.net,ProxyLite
 HOST-SUFFIX,yahoofinance.com,ProxyLite
 HOST-SUFFIX,yahoohealth.com,ProxyLite
 HOST-SUFFIX,yahoomusic.com,ProxyLite
+HOST-SUFFIX,yahoosandbox.com,ProxyLite
 HOST-SUFFIX,yahoosportsbook.com,ProxyLite
 HOST-SUFFIX,yakbutterblues.com,ProxyLite
 HOST-SUFFIX,yaksi.name.tr,ProxyLite

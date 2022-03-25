@@ -1,13 +1,13 @@
 # NAME: ChinaTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-25 02:14:45
-# DOMAIN-SUFFIX: 67903
+# UPDATED: 2022-03-26 02:12:11
+# DOMAIN-SUFFIX: 67912
 # DOMAIN: 86
 # IP-CIDR: 7
 # DOMAIN-KEYWORD: 10
 # IP-CIDR6: 4
-# TOTAL: 68010
+# TOTAL: 68019
 payload:
   - DOMAIN,265.com
   - DOMAIN,2mdn.net
@@ -2739,6 +2739,7 @@ payload:
   - DOMAIN-SUFFIX,2ktvb.com
   - DOMAIN-SUFFIX,2kxs.org
   - DOMAIN-SUFFIX,2kz.net
+  - DOMAIN-SUFFIX,2lian.com
   - DOMAIN-SUFFIX,2liang.net
   - DOMAIN-SUFFIX,2lieqi.com
   - DOMAIN-SUFFIX,2loveyou.com
@@ -21564,6 +21565,7 @@ payload:
   - DOMAIN-SUFFIX,ehcoo.com
   - DOMAIN-SUFFIX,ehealthcareforum.com
   - DOMAIN-SUFFIX,ehedco.com
+  - DOMAIN-SUFFIX,ehijoy.com
   - DOMAIN-SUFFIX,ehiman.com
   - DOMAIN-SUFFIX,ehinvest.hk
   - DOMAIN-SUFFIX,ehome5.com
@@ -21858,6 +21860,7 @@ payload:
   - DOMAIN-SUFFIX,eoffcn.com
   - DOMAIN-SUFFIX,eoivisa.com
   - DOMAIN-SUFFIX,eol8.com
+  - DOMAIN-SUFFIX,eolink.com
   - DOMAIN-SUFFIX,eolinker.com
   - DOMAIN-SUFFIX,eomoy.com
   - DOMAIN-SUFFIX,eoncon.com
@@ -24115,6 +24118,7 @@ payload:
   - DOMAIN-SUFFIX,fz222.com
   - DOMAIN-SUFFIX,fz2sc.com
   - DOMAIN-SUFFIX,fz597.com
+  - DOMAIN-SUFFIX,fzaqjy.com
   - DOMAIN-SUFFIX,fzbm.com
   - DOMAIN-SUFFIX,fzbtv.com
   - DOMAIN-SUFFIX,fzccpit.org
@@ -26629,6 +26633,7 @@ payload:
   - DOMAIN-SUFFIX,haiqingyanyu.com
   - DOMAIN-SUFFIX,haiqisoft.com
   - DOMAIN-SUFFIX,haiqq.com
+  - DOMAIN-SUFFIX,hair43.com
   - DOMAIN-SUFFIX,hair8.net
   - DOMAIN-SUFFIX,hairbobo.com
   - DOMAIN-SUFFIX,hairunmedia.com
@@ -35949,6 +35954,7 @@ payload:
   - DOMAIN-SUFFIX,ksyunad.com
   - DOMAIN-SUFFIX,ksyuncdn-k1.com
   - DOMAIN-SUFFIX,ksyuncdn.com
+  - DOMAIN-SUFFIX,ksyuncs.com
   - DOMAIN-SUFFIX,ksyungslb.com
   - DOMAIN-SUFFIX,ksyunv5.com
   - DOMAIN-SUFFIX,ksyunwaf.com
@@ -42969,6 +42975,7 @@ payload:
   - DOMAIN-SUFFIX,nwdlink.com
   - DOMAIN-SUFFIX,nweon.com
   - DOMAIN-SUFFIX,nwtongcheng.com
+  - DOMAIN-SUFFIX,nx-sc.com
   - DOMAIN-SUFFIX,nx.cm
   - DOMAIN-SUFFIX,nx5.com
   - DOMAIN-SUFFIX,nxadmin.com
@@ -64181,6 +64188,7 @@ payload:
   - DOMAIN-SUFFIX,yrw.com
   - DOMAIN-SUFFIX,yrwy.com
   - DOMAIN-SUFFIX,yryz.com
+  - DOMAIN-SUFFIX,yrz.name
   - DOMAIN-SUFFIX,yrzjw.com
   - DOMAIN-SUFFIX,ys.cc
   - DOMAIN-SUFFIX,ys001.com
@@ -67801,6 +67809,7 @@ payload:
   - DOMAIN-SUFFIX,zy-cam.com
   - DOMAIN-SUFFIX,zy2071.com
   - DOMAIN-SUFFIX,zy728.com
+  - DOMAIN-SUFFIX,zy91.com
   - DOMAIN-SUFFIX,zyan.cc
   - DOMAIN-SUFFIX,zyautoe.com
   - DOMAIN-SUFFIX,zybang.com

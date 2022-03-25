@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-25 02:14:45
-# DOMAIN-SUFFIX: 71524
+# UPDATED: 2022-03-26 02:12:12
+# DOMAIN-SUFFIX: 71531
 # PROCESS-NAME: 5
 # DOMAIN: 79
 # IP-CIDR: 6182
 # DOMAIN-KEYWORD: 14
 # IP-CIDR6: 6478
-# TOTAL: 84282
+# TOTAL: 84289
 payload:
   - DOMAIN,265.com
   - DOMAIN,adservice.google.com
@@ -22577,6 +22577,7 @@ payload:
   - DOMAIN-SUFFIX,ehcoo.com
   - DOMAIN-SUFFIX,ehealthcareforum.com
   - DOMAIN-SUFFIX,ehedco.com
+  - DOMAIN-SUFFIX,ehijoy.com
   - DOMAIN-SUFFIX,ehiman.com
   - DOMAIN-SUFFIX,ehinvest.hk
   - DOMAIN-SUFFIX,ehome5.com
@@ -22887,6 +22888,7 @@ payload:
   - DOMAIN-SUFFIX,eoffcn.com
   - DOMAIN-SUFFIX,eoivisa.com
   - DOMAIN-SUFFIX,eol8.com
+  - DOMAIN-SUFFIX,eolink.com
   - DOMAIN-SUFFIX,eolinker.com
   - DOMAIN-SUFFIX,eomoy.com
   - DOMAIN-SUFFIX,eoncon.com
@@ -25224,6 +25226,7 @@ payload:
   - DOMAIN-SUFFIX,fz222.com
   - DOMAIN-SUFFIX,fz2sc.com
   - DOMAIN-SUFFIX,fz597.com
+  - DOMAIN-SUFFIX,fzaqjy.com
   - DOMAIN-SUFFIX,fzbm.com
   - DOMAIN-SUFFIX,fzbtv.com
   - DOMAIN-SUFFIX,fzccpit.org
@@ -28171,6 +28174,7 @@ payload:
   - DOMAIN-SUFFIX,haiqingyanyu.com
   - DOMAIN-SUFFIX,haiqisoft.com
   - DOMAIN-SUFFIX,haiqq.com
+  - DOMAIN-SUFFIX,hair43.com
   - DOMAIN-SUFFIX,hair8.net
   - DOMAIN-SUFFIX,hairbobo.com
   - DOMAIN-SUFFIX,hairunmedia.com
@@ -45262,6 +45266,7 @@ payload:
   - DOMAIN-SUFFIX,nwdlink.com
   - DOMAIN-SUFFIX,nweon.com
   - DOMAIN-SUFFIX,nwtongcheng.com
+  - DOMAIN-SUFFIX,nx-sc.com
   - DOMAIN-SUFFIX,nx.cm
   - DOMAIN-SUFFIX,nx5.com
   - DOMAIN-SUFFIX,nxadmin.com
@@ -67674,6 +67679,7 @@ payload:
   - DOMAIN-SUFFIX,yrw.com
   - DOMAIN-SUFFIX,yrwy.com
   - DOMAIN-SUFFIX,yryz.com
+  - DOMAIN-SUFFIX,yrz.name
   - DOMAIN-SUFFIX,yrzjw.com
   - DOMAIN-SUFFIX,ys.cc
   - DOMAIN-SUFFIX,ys001.com
@@ -71414,6 +71420,7 @@ payload:
   - DOMAIN-SUFFIX,zy-cam.com
   - DOMAIN-SUFFIX,zy2071.com
   - DOMAIN-SUFFIX,zy728.com
+  - DOMAIN-SUFFIX,zy91.com
   - DOMAIN-SUFFIX,zyan.cc
   - DOMAIN-SUFFIX,zyautoe.com
   - DOMAIN-SUFFIX,zybang.com

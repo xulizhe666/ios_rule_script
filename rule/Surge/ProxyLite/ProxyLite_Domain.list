@@ -1,14 +1,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-22 02:12:38
-# DOMAIN-SUFFIX: 31986
+# UPDATED: 2022-03-26 02:12:08
+# DOMAIN-SUFFIX: 31987
 # USER-AGENT: 5
 # DOMAIN: 36
 # DOMAIN-KEYWORD: 26
 # IP-CIDR: 90
 # IP-CIDR6: 3
-# TOTAL: 32146
+# TOTAL: 32147
 angle.com.tw
 api-p.videomarket.jp
 api.waqi.info
@@ -31328,6 +31328,7 @@ www-cdn.icloud.com.akadns.net
 .yahoofinance.com
 .yahoohealth.com
 .yahoomusic.com
+.yahoosandbox.com
 .yahoosportsbook.com
 .yakbutterblues.com
 .yaksi.name.tr

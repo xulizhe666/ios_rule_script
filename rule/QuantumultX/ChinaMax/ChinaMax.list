@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-25 02:14:42
+# UPDATED: 2022-03-26 02:12:09
 # USER-AGENT: 62
-# HOST-SUFFIX: 71524
+# HOST-SUFFIX: 71531
 # HOST: 79
 # IP-CIDR: 6182
 # HOST-KEYWORD: 14
 # IP6-CIDR: 6478
-# TOTAL: 84339
+# TOTAL: 84346
 HOST,265.com,ChinaMax
 HOST,adservice.google.com,ChinaMax
 HOST,analytics.strava.com,ChinaMax
@@ -22576,6 +22576,7 @@ HOST-SUFFIX,ehclglobal.com,ChinaMax
 HOST-SUFFIX,ehcoo.com,ChinaMax
 HOST-SUFFIX,ehealthcareforum.com,ChinaMax
 HOST-SUFFIX,ehedco.com,ChinaMax
+HOST-SUFFIX,ehijoy.com,ChinaMax
 HOST-SUFFIX,ehiman.com,ChinaMax
 HOST-SUFFIX,ehinvest.hk,ChinaMax
 HOST-SUFFIX,ehome5.com,ChinaMax
@@ -22886,6 +22887,7 @@ HOST-SUFFIX,eoemarket.net,ChinaMax
 HOST-SUFFIX,eoffcn.com,ChinaMax
 HOST-SUFFIX,eoivisa.com,ChinaMax
 HOST-SUFFIX,eol8.com,ChinaMax
+HOST-SUFFIX,eolink.com,ChinaMax
 HOST-SUFFIX,eolinker.com,ChinaMax
 HOST-SUFFIX,eomoy.com,ChinaMax
 HOST-SUFFIX,eoncon.com,ChinaMax
@@ -25223,6 +25225,7 @@ HOST-SUFFIX,fz0512.com,ChinaMax
 HOST-SUFFIX,fz222.com,ChinaMax
 HOST-SUFFIX,fz2sc.com,ChinaMax
 HOST-SUFFIX,fz597.com,ChinaMax
+HOST-SUFFIX,fzaqjy.com,ChinaMax
 HOST-SUFFIX,fzbm.com,ChinaMax
 HOST-SUFFIX,fzbtv.com,ChinaMax
 HOST-SUFFIX,fzccpit.org,ChinaMax
@@ -28170,6 +28173,7 @@ HOST-SUFFIX,hainuotech.com,ChinaMax
 HOST-SUFFIX,haiqingyanyu.com,ChinaMax
 HOST-SUFFIX,haiqisoft.com,ChinaMax
 HOST-SUFFIX,haiqq.com,ChinaMax
+HOST-SUFFIX,hair43.com,ChinaMax
 HOST-SUFFIX,hair8.net,ChinaMax
 HOST-SUFFIX,hairbobo.com,ChinaMax
 HOST-SUFFIX,hairunmedia.com,ChinaMax
@@ -45261,6 +45265,7 @@ HOST-SUFFIX,nwct.me,ChinaMax
 HOST-SUFFIX,nwdlink.com,ChinaMax
 HOST-SUFFIX,nweon.com,ChinaMax
 HOST-SUFFIX,nwtongcheng.com,ChinaMax
+HOST-SUFFIX,nx-sc.com,ChinaMax
 HOST-SUFFIX,nx.cm,ChinaMax
 HOST-SUFFIX,nx5.com,ChinaMax
 HOST-SUFFIX,nxadmin.com,ChinaMax
@@ -67673,6 +67678,7 @@ HOST-SUFFIX,yrw.cc,ChinaMax
 HOST-SUFFIX,yrw.com,ChinaMax
 HOST-SUFFIX,yrwy.com,ChinaMax
 HOST-SUFFIX,yryz.com,ChinaMax
+HOST-SUFFIX,yrz.name,ChinaMax
 HOST-SUFFIX,yrzjw.com,ChinaMax
 HOST-SUFFIX,ys.cc,ChinaMax
 HOST-SUFFIX,ys001.com,ChinaMax
@@ -71413,6 +71419,7 @@ HOST-SUFFIX,zxzyy.com,ChinaMax
 HOST-SUFFIX,zy-cam.com,ChinaMax
 HOST-SUFFIX,zy2071.com,ChinaMax
 HOST-SUFFIX,zy728.com,ChinaMax
+HOST-SUFFIX,zy91.com,ChinaMax
 HOST-SUFFIX,zyan.cc,ChinaMax
 HOST-SUFFIX,zyautoe.com,ChinaMax
 HOST-SUFFIX,zybang.com,ChinaMax

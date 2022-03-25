@@ -1,14 +1,14 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-25 02:14:45
-# DOMAIN-SUFFIX: 71524
+# UPDATED: 2022-03-26 02:12:11
+# DOMAIN-SUFFIX: 71531
 # PROCESS-NAME: 5
 # DOMAIN: 79
 # IP-CIDR: 6182
 # DOMAIN-KEYWORD: 14
 # IP-CIDR6: 6478
-# TOTAL: 84282
+# TOTAL: 84289
 payload:
   - '265.com'
   - 'adservice.google.com'
@@ -22577,6 +22577,7 @@ payload:
   - '+.ehcoo.com'
   - '+.ehealthcareforum.com'
   - '+.ehedco.com'
+  - '+.ehijoy.com'
   - '+.ehiman.com'
   - '+.ehinvest.hk'
   - '+.ehome5.com'
@@ -22887,6 +22888,7 @@ payload:
   - '+.eoffcn.com'
   - '+.eoivisa.com'
   - '+.eol8.com'
+  - '+.eolink.com'
   - '+.eolinker.com'
   - '+.eomoy.com'
   - '+.eoncon.com'
@@ -25224,6 +25226,7 @@ payload:
   - '+.fz222.com'
   - '+.fz2sc.com'
   - '+.fz597.com'
+  - '+.fzaqjy.com'
   - '+.fzbm.com'
   - '+.fzbtv.com'
   - '+.fzccpit.org'
@@ -28171,6 +28174,7 @@ payload:
   - '+.haiqingyanyu.com'
   - '+.haiqisoft.com'
   - '+.haiqq.com'
+  - '+.hair43.com'
   - '+.hair8.net'
   - '+.hairbobo.com'
   - '+.hairunmedia.com'
@@ -45262,6 +45266,7 @@ payload:
   - '+.nwdlink.com'
   - '+.nweon.com'
   - '+.nwtongcheng.com'
+  - '+.nx-sc.com'
   - '+.nx.cm'
   - '+.nx5.com'
   - '+.nxadmin.com'
@@ -67674,6 +67679,7 @@ payload:
   - '+.yrw.com'
   - '+.yrwy.com'
   - '+.yryz.com'
+  - '+.yrz.name'
   - '+.yrzjw.com'
   - '+.ys.cc'
   - '+.ys001.com'
@@ -71414,6 +71420,7 @@ payload:
   - '+.zy-cam.com'
   - '+.zy2071.com'
   - '+.zy728.com'
+  - '+.zy91.com'
   - '+.zyan.cc'
   - '+.zyautoe.com'
   - '+.zybang.com'

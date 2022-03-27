@@ -12,8 +12,8 @@ socks-port: 7891
 
 # authentication of local SOCKS5/HTTP(S) server
 # authentication:
-#  - "user1:pass1"
-#  - "user2:pass2"
+# "user1:pass1"
+# "user2:pass2"
 
 # Set to true to allow connections to local-end server from
 # other LAN IP addresses
@@ -77,8 +77,8 @@ dns:
   # These nameservers are used to resolve the DNS nameserver hostnames below.
   # Specify IP addresses only
   default-nameserver:
-    - 114.114.114.114
-    - 8.8.8.8
+   114.114.114.114
+   8.8.8.8
   enhanced-mode: redir-host # or fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
   
@@ -86,24 +86,24 @@ dns:
   # i.e. questions to these domain names will always be answered with their
   # real IP addresses
   # fake-ip-filter:
-  #   - '*.lan'
-  #   - localhost.ptlogin2.qq.com
+  #  '*.lan'
+  #  localhost.ptlogin2.qq.com
   
   # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
   # All DNS questions are sent directly to the nameserver, without proxies
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
-    - 114.114.114.114 # default value
-    - 8.8.8.8 # default value
-    - tls://dns.rubyfish.cn:853 # DNS over TLS
-    - https://1.1.1.1/dns-query # DNS over HTTPS
+   114.114.114.114 # default value
+   8.8.8.8 # default value
+   tls://dns.rubyfish.cn:853 # DNS over TLS
+   https://1.1.1.1/dns-query # DNS over HTTPS
 
   # When `fallback` is present, the DNS server will send concurrent requests
   # to the servers in this section along with servers in `nameservers`.
   # The answers from fallback servers are used when the GEOIP country
   # is not `CN`.
   # fallback:
-  #   - tcp://1.1.1.1
+  #  tcp://1.1.1.1
 
   # If IP addresses resolved with servers in `nameservers` are in the specified
   # subnets below, they are considered invalid and results from `fallback`
@@ -119,13 +119,13 @@ dns:
   fallback-filter:
     geoip: true
     ipcidr:
-      # - 240.0.0.0/4
+      #240.0.0.0/4
 
 proxies:
 # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
 
   # Shadowsocks(Websocket + TLS)
-  - name: "HK"
+ name: "HK"
     type: ss
     server: server
     port: 443
@@ -143,7 +143,7 @@ proxies:
       #   custom: value
 
   # VMess(Websocket + TLS)
-  - name: "US"
+ name: "US"
     type: vmess
     server: v2ray.cool
     port: 443
@@ -159,7 +159,7 @@ proxies:
     #   Host: v2ray.com
 
   # Trojan
-  - name: "SG"
+ name: "SG"
     type: trojan
     server: server
     port: 443
@@ -167,8 +167,8 @@ proxies:
     # udp: true
     # sni: example.com # aka server name
     # alpn:
-    #   - h2
-    #   - http/1.1
+    #  h2
+    #  http/1.1
     # skip-cert-verify: true
 
 # 服务器节点订阅
@@ -215,53 +215,53 @@ proxy-groups:
 #
 
   # Fallback 比较实用的策略组类型，用于测试服务器节点的可用性，当第一个节点不可用时切换到第二个，以此类推。
-  - name: "Fallback"
+ name: "Fallback"
     type: fallback
     proxies:
-      - HK
-      - US
-      - SG
+     HK
+     US
+     SG
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
   # 代理节点选择
-  - name: "PROXY"
+ name: "PROXY"
     type: select
     proxies:
-      - Fallback
-      - HK
-      - US
-      - SG
-      - DuckDuckGo
+     Fallback
+     HK
+     US
+     SG
+     DuckDuckGo
 
   # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
-  - name: "MATCH"
+ name: "MATCH"
     type: select
     proxies:
-      - PROXY
-      - DIRECT
+     PROXY
+     DIRECT
 
   # 国际流媒体服务
-  - name: "Streaming"
+ name: "Streaming"
     type: select
     proxies:
-      - PROXY
-      - HK
-      - US
-      - SG
+     PROXY
+     HK
+     US
+     SG
 
   # 中国流媒体服务（面向海外版本）
-  - name: "StreamingSE"
+ name: "StreamingSE"
     type: select
     proxies:
-      - DIRECT
-      - HK
+     DIRECT
+     HK
 
   # 手动选择节点订阅
-  - name: "DuckDuckGo"
+ name: "DuckDuckGo"
     type: select # 亦可使用 fallback 或 load-balance
     use:
-      - DuckDuckGo-Sub
+     DuckDuckGo-Sub
 
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
@@ -318,36 +318,36 @@ rule-providers:
 # 规则
 rules:
   # Unbreak
-  - RULE-SET,Unbreak,DIRECT
+ RULE-SET,Unbreak,DIRECT
 
   # Global Area Network
 
   # (Streaming Media)
-  - RULE-SET,Streaming,Streaming
+ RULE-SET,Streaming,Streaming
 
   # (StreamingSE)
-  - RULE-SET,StreamingSE,StreamingSE
+ RULE-SET,StreamingSE,StreamingSE
 
   # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
-  - RULE-SET,Global,PROXY
+ RULE-SET,Global,PROXY
 
   # China Area Network
-  - RULE-SET,China,DIRECT
+ RULE-SET,China,DIRECT
 
   # Local Area Network
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,224.0.0.0/4,DIRECT
+ IP-CIDR,192.168.0.0/16,DIRECT
+ IP-CIDR,10.0.0.0/8,DIRECT
+ IP-CIDR,172.16.0.0/12,DIRECT
+ IP-CIDR,127.0.0.0/8,DIRECT
+ IP-CIDR,100.64.0.0/10,DIRECT
+ IP-CIDR,224.0.0.0/4,DIRECT
 
   # （可选）使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时可禁用下列直至（包括）「GEOIP,CN」规则
-  # - RULE-SET,ChinaIP,DIRECT
+  #RULE-SET,ChinaIP,DIRECT
   # Tencent
-  - IP-CIDR,119.28.28.28/32,DIRECT
-  - IP-CIDR,182.254.116.0/24,DIRECT
+ IP-CIDR,119.28.28.28/32,DIRECT
+ IP-CIDR,182.254.116.0/24,DIRECT
   # GeoIP China
-  - GEOIP,CN,DIRECT
+ GEOIP,CN,DIRECT
 
-  - MATCH,MATCH
+ MATCH,MATCH
